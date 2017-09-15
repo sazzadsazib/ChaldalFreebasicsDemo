@@ -35,6 +35,9 @@ li a:hover, .dropdown:hover .dropbtn {
   padding: 3px 4px;
 }
 
+.pd-0 {
+  padding: 0px;
+}
 .catagory {
   display: flex;
   align-items: center;
@@ -167,6 +170,79 @@ a:active {
   display: none;
 }
 
+.catagory-coupons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 40px;
+  background-color: rgb(241, 241, 241);
+  margin: 0 auto;
+  margin-top: 0px; }
+
+  .grey {
+    display:  flex;
+    height: 40px;
+    background-color: rgb(200, 200, 200);
+    margin: 0 auto;
+    margin-top: 0px;
+    align-items: center;
+  justify-content: center; 
+  }
+
+.active {
+    display:  flex;
+    height: 40px;
+    background-color: rgba(241, 241, 241,0.2);
+    margin: 0 auto;
+    margin-top: 0px;
+    align-items: center;
+  justify-content: center; 
+  }
+
+.active:hover {
+    display:  flex;
+    height: 40px;
+    background-color: rgb(253, 214, 112);
+    margin: 0 auto;
+    margin-top: 0px;
+    align-items: center;
+  justify-content: center; 
+  }
+
+
+
+.catagory-item-coupons {
+  text-align: center !important;
+  width: 5000px;
+  font-family: Roboto, sans-serif; }
+
+.catagory-item-coupons a {
+  text-decoration: none;
+  color: grey; }
+
+  .catagory-item-coupons :hover {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 40px;
+  background-color: rgb(200, 200, 200);
+  color: grey;
+  margin: 0 auto;
+  margin-top: 0px; }
+
+  .catagory-item-coupons :active {
+    background-color: rgb(200, 200, 200);
+  }
+.button-style {
+    background-color: rgb(253, 214, 112);
+    margin-bottom: 20px;
+    width: 40%;
+    height: 35px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid rgba(0,0,0,0.2);
+}
+
 /************************************************************************************
 MEDIA QUERIES
 *************************************************************************************/
@@ -197,8 +273,8 @@ MEDIA QUERIES
     display: inline-block;
   }
   .footer {
-    display: block;
-  height: 40px;
+  display: block;
+  padding: 20px;
   text-align: center;
   background-color: rgb(253, 214, 112);
   font-family: Roboto, sans-serif;
@@ -217,8 +293,8 @@ MEDIA QUERIES
     height: auto;
   }
   .footer {
-    display: block;
-  height: 40px;
+  display: block;
+  padding: 20px;
   text-align: center;
   background-color: rgb(253, 214, 112);
   font-family: Roboto, sans-serif;
