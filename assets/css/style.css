@@ -117,7 +117,7 @@ header {
 
 
 #content {
-  background: rgba(253, 214, 112, 0.35);;
+  background: rgba(253, 214, 112, 0.35);
 }
 header, #content, #middle, #sidebar {
   margin-bottom: 5px;
@@ -155,18 +155,16 @@ a:active {
     text-decoration: none!important;
 }
 
-.footer {
-  position: absolute;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  padding: 1rem;
-  background-color: #000000;
-  text-align: left;
+.footer-style {
+  background-color: red;
 }
 
 #content:hover {
   background: rgba(255, 104, 110, 0.40);
+}
+
+.footer {
+  display: none;
 }
 
 /************************************************************************************
@@ -174,7 +172,9 @@ MEDIA QUERIES
 *************************************************************************************/
 /* for 980px or less */
 @media screen and (max-width: 980px) {
-  
+  .footer{
+    display: none;
+  }
   #pagewrap {
     width: 94%;
   }
@@ -196,6 +196,14 @@ MEDIA QUERIES
     float: none;
     display: inline-block;
   }
+  .footer {
+    display: block;
+  height: 40px;
+  text-align: center;
+  background-color: rgb(253, 214, 112);
+  font-family: Roboto, sans-serif;
+
+}
 
 
   header, #content, #middle, #sidebar {
@@ -208,6 +216,15 @@ MEDIA QUERIES
   header {
     height: auto;
   }
+  .footer {
+    display: block;
+  height: 40px;
+  text-align: center;
+  background-color: rgb(253, 214, 112);
+  font-family: Roboto, sans-serif;
+
+}
+
   h1 {
     font-size: 2em;
   }
