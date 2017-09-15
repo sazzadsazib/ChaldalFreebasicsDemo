@@ -117,7 +117,7 @@ header {
 
 
 #content {
-  background: rgb(253, 214, 112);
+  background: rgba(253, 214, 112, 0.35);;
 }
 header, #content, #middle, #sidebar {
   margin-bottom: 5px;
@@ -136,6 +136,25 @@ a:-webkit-any-link {
   text-decoration: none!important;
 }
 
+a:link {
+    text-decoration: none!important;
+}
+
+/* visited link */
+a:visited {
+   text-decoration: none!important;
+}
+
+/* mouse over link */
+a:hover {
+    text-decoration: none!important;
+}
+
+/* selected link */
+a:active {
+    text-decoration: none!important;
+}
+
 .footer {
   position: absolute;
   right: 0;
@@ -144,6 +163,10 @@ a:-webkit-any-link {
   padding: 1rem;
   background-color: #000000;
   text-align: left;
+}
+
+#content:hover {
+  background: rgba(255, 104, 110, 0.40);
 }
 
 /************************************************************************************
