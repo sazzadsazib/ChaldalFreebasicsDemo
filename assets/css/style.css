@@ -188,6 +188,10 @@ MEDIA QUERIES
   h1 {
     font-size: 2em;
   }
+  .logo {
+  width: 15vh;
+  padding: 3px 4px;
+}
 
 }
 @media screen and (max-width: 370px) {
@@ -203,6 +207,10 @@ MEDIA QUERIES
     float: none;
     display: inline-block;
   }
+  .logo {
+  width: 10vh;
+  padding: 5px 4px;
+}
 
 
 }
