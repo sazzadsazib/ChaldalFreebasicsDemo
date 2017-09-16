@@ -13,9 +13,22 @@ ul {
   margin: 0;
 }
 
+.cdcolor-bg {
+    background-color: rgb(253, 214, 112);
+}
 
 
 li a, .dropbtn {
+    display: inline-block;
+    color: #3a3a3c;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 3.5vmin;
+    font-family: Roboto, sans-serif;
+}
+
+li p {
     display: inline-block;
     color: #3a3a3c;
     text-align: center;
@@ -37,6 +50,7 @@ li a:hover, .dropdown:hover .dropbtn {
 
 .pd-0 {
   padding: 0px;
+  margin: 3% 4%;
 }
 .catagory {
   display: flex;
@@ -70,9 +84,10 @@ li a:hover, .dropdown:hover .dropbtn {
     text-align: center;
     font-family: Roboto, sans-serif;
     font-weight: bold;
-    font-size: 16pt;
+    font-size: 5vmin;
     margin-top: 3%;
     margin-bottom: 5%;
+    color: rgba(0,0,0,0.5);
 
   }
 
@@ -132,6 +147,12 @@ header, #content, #middle, #sidebar {
   font-size: 3.5vmin;
   margin-top: 5px;
   color: #ff686e;
+}
+.catagory-sub-title {
+  font-family: Roboto, sans-serif;
+  font-size: 3vmin;
+  margin-top: 5px;
+  color: #777;
 }
 
   /* custom */
@@ -210,6 +231,59 @@ a:active {
   }
 
 
+.offer-style {
+    width: auto;
+    display: inline-block;
+    margin-top: 4%;
+    padding: 3%;
+    margin: 3%;
+    border-radius: 5px;
+    background-color: #f1f1f1;
+    border: 2px solid #ccc;
+}
+
+.profilehistory-style {
+    width: auto;
+    display: inline-block;
+    margin-top: 4%;
+    padding: 4% 20%;
+    margin: 3%;
+    border-radius: 5px;
+    background-color: #f1f1f1;
+    border: 2px solid #ccc;"
+}
+
+.item-style {
+    width: 35%;
+    display: inline-block;
+    margin-top: 5%!important;
+    padding: 2%;
+    margin: 2%;
+    border-radius: 5px;
+    background-color: #f1f1f1;
+    border: 2px solid #ccc;"
+}
+
+
+.discount-style {
+    width: auto;
+    display: inline-block;
+    margin-top: 2%;
+    padding: 1%;
+    margin: 2%;
+    border-radius: 5px;
+    background-color: #f1f1f1;
+    border: 2px solid #ccc;"
+}
+.discount-box {
+  background-color: #f1f1f1;
+  border-radius: 5px;
+  padding: 1%;
+  border:2px solid #ccc;
+   width: 90%;
+    display: inline-block;
+    margin: 10px 0px;
+}
 
 .catagory-item-coupons {
   text-align: center !important;
@@ -236,13 +310,98 @@ a:active {
 .button-style {
     background-color: rgb(253, 214, 112);
     margin-bottom: 20px;
-    width: 40%;
-    height: 35px;
-    font-size: 16px;
+    padding: 2% 8%;
     border-radius: 5px;
     border: 1px solid rgba(0,0,0,0.2);
+    font-size: 3vmin!important;
+    cursor: pointer;
+    font-family: Roboto, sans-serif;
+    color: #333;
+}
+.button-login {
+    background-color: #ff686e;
+    margin-bottom: 20px;
+    padding: 2% 8%;
+    font-size: 3.5vmin;
+    border-radius: 5px;
+    border: 1px solid rgba(0,0,0,0.2);
+    font-family: Roboto, sans-serif;
+    font-size: 3vmin;
+    cursor: pointer;
+    color: #fff;
+}
+.button-style2 {
+    background-color: rgb(253, 214, 112);
+    margin-bottom: 20px;
+    padding: 2% 8%;
+    font-size: 2.5vmin!important;
+    border-radius: 5px;
+    border: 1px solid rgba(0,0,0,0.2);
+    font-family: Roboto, sans-serif;
+    font-size: 3vmin;
+    cursor: pointer;
+}
+.button-style3 {
+    background-color: rgb(253, 214, 112);
+    margin-bottom: 20px;
+    padding: 3% 9%;
+    border-radius: 5px;
+    border: 1px solid rgba(0,0,0,0.2);
+    font-size: 3.5vmin;
+    cursor: pointer;
+    margin-top: 50px!important;
+    font-family: Roboto, sans-serif;
+    color: #333;
+    font-weight: bold;
 }
 
+.button-style:hover {
+    background-color: #ff686e;
+    color: #fff;
+}
+.button-style2:hover {
+    background-color: #ff686e;
+    color: #fff;
+}
+
+.button-style3:hover {
+    background-color: #ff686e;
+    color: #fff;
+}
+
+
+.ofwhite {
+  background-color: #ffffff!important;
+}
+.ofwhite:hover {
+  background-color: #f1f3f4!important;
+}
+
+.text-p {
+  font-size: 3.5vmin;
+  color: #333;
+ font-family: Roboto, sans-serif;
+}
+
+.text-p a {
+  font-size: 3.5vmin;
+  color: #333;
+ font-family: Roboto, sans-serif;
+ text-decoration: none;
+ color: #ff686e;
+}
+
+
+.inputstyle {
+  width: 70%;
+  background-color: #fff;
+  border-radius: 5px;
+  border: 1px solid rgba(0,0,0,.2);
+  padding: 10px 5px;
+  margin: 10px 0px;
+  font-size: 3vmin;
+  padding-left: 10px;
+}
 /************************************************************************************
 MEDIA QUERIES
 *************************************************************************************/
@@ -281,6 +440,11 @@ MEDIA QUERIES
 
 }
 
+.logo {
+  width: 15vh;
+  padding: 3px 4px;
+}
+
 
   header, #content, #middle, #sidebar {
   margin-top: 5px; }
@@ -304,6 +468,10 @@ MEDIA QUERIES
   h1 {
     font-size: 2em;
   }
+.logo {
+  width: 15vh;
+  padding: 3px 4px;
+}
 
 
 }
@@ -320,6 +488,11 @@ MEDIA QUERIES
     float: none;
     display: inline-block;
   }
+  .logo {
+  width: 15vh;
+  padding: 3px 4px;
+}
+
 
 
 
