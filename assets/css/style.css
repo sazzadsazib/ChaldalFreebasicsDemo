@@ -264,6 +264,19 @@ a:active {
     border: 2px solid #ccc;"
 }
 
+.catagory-style {
+    width: 35%;
+    display: inline-block;
+    margin-top: 5%!important;
+    padding: 2%;
+    margin: 2%;
+    border-radius: 5px;
+    background-color: rgba(253, 214, 112, 0.35);
+    border: 2px solid rgba(253, 214, 112,0.5);
+}
+
+
+
 
 .discount-style {
     width: auto;
@@ -355,6 +368,17 @@ a:active {
     font-weight: bold;
 }
 
+.button-search {
+    background-color: #ff686e;
+    margin-bottom: 20px;
+    padding: 9px 30px;
+    border-radius: 5px;
+    border: 2px solid rgba(255, 0, 0, 0.3);
+    font-size: 3vmin!important;
+    cursor: pointer;
+    font-family: Roboto, sans-serif;
+    color: #fff;
+}
 .button-style:hover {
     background-color: #ff686e;
     color: #fff;
@@ -372,9 +396,20 @@ a:active {
 
 .ofwhite {
   background-color: #ffffff!important;
+  border:2px solid #ddd!important;
+
 }
 .ofwhite:hover {
   background-color: #f1f3f4!important;
+}
+.catagory-hover {
+  background-color: background-color: rgba(253, 214, 112, 0.35)!important;
+  border:2px solid background-color: rgba(253, 214, 112, 0.5)!important;
+
+}
+.catagory-hover:hover {
+  background-color: rgba(255, 104, 110, 0.35)!important;
+  border: 2px solid rgba(255, 104, 110, 0.5)!important;
 }
 
 .text-p {
@@ -402,13 +437,51 @@ a:active {
   font-size: 3vmin;
   padding-left: 10px;
 }
+
+.inputstyle-textarea {
+   width: 70%;
+   height: 100px;
+   resize: none;
+   background-color: rgba(253, 214, 112,.35);
+  border-radius: 5px;
+  border: 2px solid rgba(253, 214, 112,.5);
+  padding: 10px 5px;
+  margin: 10px 0px;
+  font-size: 3vmin;
+  padding-left: 10px;
+}
+
+.inputstyle2 {
+   width: 70%;
+   background-color: rgba(253, 214, 112,.35);
+  border-radius: 5px;
+  border: 2px solid rgba(253, 214, 112,.5);
+  padding: 10px 5px;
+  margin: 10px 0px;
+  font-size: 3vmin;
+  padding-left: 10px;
+}
+
+
+.inputstyle-search {
+  width: 60%;
+  color: #ff686e;
+  border-radius: 5px;
+  padding: 9px 9px;
+  font-size: 3vmin;
+  font-weight: bold;
+  font-family: Roboto, sans-serif;
+  background-color: rgba(253, 214, 112,.35);
+  border-radius: 5px;
+  border: 2px solid rgba(253, 214, 112,.5);
+}
 /************************************************************************************
 MEDIA QUERIES
 *************************************************************************************/
 /* for 980px or less */
 @media screen and (max-width: 980px) {
   .footer{
-    display: none;
+    display: block;
   }
   #pagewrap {
     width: 94%;
