@@ -1,5 +1,5 @@
- @font-face { font-family: Roboto; src: url('assets/fonts/Roboto-Regular.ttf'); } 
- @font-face { font-family: Roboto; font-weight: bold; src: url('assets/fonts/Roboto-Bold.ttf');}
+@font-face { font-family: Roboto; src: url('assets/fonts/Roboto-Regular.ttf'); }
+@font-face { font-family: Roboto; font-weight: bold; src: url('assets/fonts/Roboto-Bold.ttf');}
 ul {
     list-style-type: none;
     margin: 0;
@@ -10,7 +10,7 @@ ul {
     background: cover;
 }
 * {
-  margin: 0;
+    margin: 0;
 }
 
 .cdcolor-bg {
@@ -44,43 +44,44 @@ li a:hover, .dropdown:hover .dropbtn {
 }
 
 .logo {
-  width: 20vh;
-  padding: 3px 4px;
+    width: 20vh;
+    padding: 3px 4px;
 }
 
 .pd-0 {
-  padding: 0px;
-  margin: 3% 4%;
+    padding: 0px;
+    margin: 3% 4%;
 }
 .catagory {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 40px;
-  background-color: #ff686e;
-  margin: 0 auto;
-  margin-top: 0px; }
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    background-color: #ff686e;
+    margin: 0 auto;
+    margin-top: 0px; }
 
 .catagory-item {
-  text-align: center !important;
-  width: 5000px;
-  font-family: Roboto, sans-serif; }
+    text-align: center !important;
+    width: 5000px;
+    font-family: Roboto, sans-serif;
+    font-size: 3vh;}
 
 .catagory-item a {
-  text-decoration: none;
-  color: #fff; }
+    text-decoration: none;
+    color: #fff; }
 
-  .catagory-item :hover {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 40px;
-  background-color: rgb(253, 214, 112);
-  color: #000;
-  margin: 0 auto;
-  margin-top: 0px; }
+.catagory-item :hover {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    background-color: rgb(253, 214, 112);
+    color: #000;
+    margin: 0 auto;
+    margin-top: 0px; }
 
-  .header-title {
+.header-title {
     text-align: center;
     font-family: Roboto, sans-serif;
     font-weight: bold;
@@ -89,75 +90,75 @@ li a:hover, .dropdown:hover .dropbtn {
     margin-bottom: 5%;
     color: rgba(0,0,0,0.5);
 
-  }
+}
 
 .listings{
- width: 90%;
- background-color: lightgrey;
- margin: 0 auto;
+    width: 90%;
+    background-color: lightgrey;
+    margin: 0 auto;
 }
 
 .items {
-  background-color: grey;
-  text-align: center;
- width: 30%;
- padding: 10px 0px;
+    background-color: grey;
+    text-align: center;
+    width: 30%;
+    padding: 10px 0px;
 }
 
-.imageicon 
+.imageicon
 {
-  width: 80px;
+    width: 55%;
 }
 
 
 
 /*content*/
 #pagewrap {
-  padding: 5px;
-  width: 960px;
-  margin: 20px auto;
-  border:none;
+    padding: 5px;
+    width: 960px;
+    margin: 20px auto;
+    border:none;
 }
 header {
-  height: 100px;
-  padding: 0 15px;
+    height: 100px;
+    padding: 0 15px;
 }
 #content {
-  width: 280px;
-  float: left;
-  padding: 5px 15px;
-  border-radius: 5px;
+    width: 280px;
+    float: left;
+    padding: 5px 15px;
+    border-radius: 5px;
 
 }
 .center {
-  text-align: center;
+    text-align: center;
 }
 
 
 #content {
-  background: rgba(253, 214, 112, 0.35);
+    background: rgba(253, 214, 112, 0.35);
 }
 header, #content, #middle, #sidebar {
-  margin-bottom: 5px;
-  margin-left: 5px;
+    margin-bottom: 5px;
+    margin-left: 5px;
 }
 
 .catagory-title {
-  font-family: Roboto, sans-serif;
-  font-size: 3.5vmin;
-  margin-top: 5px;
-  color: #ff686e;
+    font-family: Roboto, sans-serif;
+    font-size: 3.5vmin;
+    margin-top: 5px;
+    color: #ff686e;
 }
 .catagory-sub-title {
-  font-family: Roboto, sans-serif;
-  font-size: 3vmin;
-  margin-top: 5px;
-  color: #777;
+    font-family: Roboto, sans-serif;
+    font-size: 3vmin;
+    margin-top: 5px;
+    color: #777;
 }
 
-  /* custom */
-a:-webkit-any-link { 
-  text-decoration: none!important;
+/* custom */
+a:-webkit-any-link {
+    text-decoration: none!important;
 }
 
 a:link {
@@ -166,7 +167,7 @@ a:link {
 
 /* visited link */
 a:visited {
-   text-decoration: none!important;
+    text-decoration: none!important;
 }
 
 /* mouse over link */
@@ -180,35 +181,35 @@ a:active {
 }
 
 .footer-style {
-  background-color: red;
+    background-color: red;
 }
 
 #content:hover {
-  background: rgba(255, 104, 110, 0.40);
+    background: rgba(255, 104, 110, 0.40);
 }
 
 .footer {
-  display: none;
+    display: none;
 }
 
 .catagory-coupons {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 40px;
-  background-color: rgb(241, 241, 241);
-  margin: 0 auto;
-  margin-top: 0px; }
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    background-color: rgb(241, 241, 241);
+    margin: 0 auto;
+    margin-top: 0px; }
 
-  .grey {
+.grey {
     display:  flex;
     height: 40px;
     background-color: rgb(200, 200, 200);
     margin: 0 auto;
     margin-top: 0px;
     align-items: center;
-  justify-content: center; 
-  }
+    justify-content: center;
+}
 
 .active {
     display:  flex;
@@ -217,8 +218,8 @@ a:active {
     margin: 0 auto;
     margin-top: 0px;
     align-items: center;
-  justify-content: center; 
-  }
+    justify-content: center;
+}
 
 .active:hover {
     display:  flex;
@@ -227,8 +228,8 @@ a:active {
     margin: 0 auto;
     margin-top: 0px;
     align-items: center;
-  justify-content: center; 
-  }
+    justify-content: center;
+}
 
 
 .offer-style {
@@ -289,37 +290,37 @@ a:active {
     border: 2px solid #ccc;"
 }
 .discount-box {
-  background-color: #f1f1f1;
-  border-radius: 5px;
-  padding: 1%;
-  border:2px solid #ccc;
-   width: 90%;
+    background-color: #f1f1f1;
+    border-radius: 5px;
+    padding: 1%;
+    border:2px solid #ccc;
+    width: 90%;
     display: inline-block;
     margin: 10px 0px;
 }
 
 .catagory-item-coupons {
-  text-align: center !important;
-  width: 5000px;
-  font-family: Roboto, sans-serif; }
+    text-align: center !important;
+    width: 5000px;
+    font-family: Roboto, sans-serif; }
 
 .catagory-item-coupons a {
-  text-decoration: none;
-  color: grey; }
+    text-decoration: none;
+    color: grey; }
 
-  .catagory-item-coupons :hover {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 40px;
-  background-color: rgb(200, 200, 200);
-  color: grey;
-  margin: 0 auto;
-  margin-top: 0px; }
-
-  .catagory-item-coupons :active {
+.catagory-item-coupons :hover {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
     background-color: rgb(200, 200, 200);
-  }
+    color: grey;
+    margin: 0 auto;
+    margin-top: 0px; }
+
+.catagory-item-coupons :active {
+    background-color: rgb(200, 200, 200);
+}
 .button-style {
     background-color: rgb(253, 214, 112);
     margin-bottom: 20px;
@@ -372,6 +373,7 @@ a:active {
     background-color: #ff686e;
     margin-bottom: 20px;
     padding: 9px 30px;
+    margin-top: 0px;
     border-radius: 5px;
     border: 2px solid rgba(255, 0, 0, 0.3);
     font-size: 3vmin!important;
@@ -395,176 +397,176 @@ a:active {
 
 
 .ofwhite {
-  background-color: #ffffff!important;
-  border:2px solid #ddd!important;
+    background-color: #ffffff!important;
+    border:2px solid #ddd!important;
 
 }
 .ofwhite:hover {
-  background-color: #f1f3f4!important;
+    background-color: #f1f3f4!important;
 }
 .catagory-hover {
-  background-color: background-color: rgba(253, 214, 112, 0.35)!important;
-  border:2px solid background-color: rgba(253, 214, 112, 0.5)!important;
+    background-color: background-color: rgba(253, 214, 112, 0.35)!important;
+    border:2px solid background-color: rgba(253, 214, 112, 0.5)!important;
 
 }
 .catagory-hover:hover {
-  background-color: rgba(255, 104, 110, 0.35)!important;
-  border: 2px solid rgba(255, 104, 110, 0.5)!important;
+    background-color: rgba(255, 104, 110, 0.35)!important;
+    border: 2px solid rgba(255, 104, 110, 0.5)!important;
 }
 
 .text-p {
-  font-size: 3.5vmin;
-  color: #333;
- font-family: Roboto, sans-serif;
+    font-size: 3.5vmin;
+    color: #333;
+    font-family: Roboto, sans-serif;
 }
 
 .text-p a {
-  font-size: 3.5vmin;
-  color: #333;
- font-family: Roboto, sans-serif;
- text-decoration: none;
- color: #ff686e;
+    font-size: 3.5vmin;
+    color: #333;
+    font-family: Roboto, sans-serif;
+    text-decoration: none;
+    color: #ff686e;
 }
 
 
 .inputstyle {
-  width: 70%;
-  background-color: #fff;
-  border-radius: 5px;
-  border: 1px solid rgba(0,0,0,.2);
-  padding: 10px 5px;
-  margin: 10px 0px;
-  font-size: 3vmin;
-  padding-left: 10px;
+    width: 70%;
+    background-color: #fff;
+    border-radius: 5px;
+    border: 1px solid rgba(0,0,0,.2);
+    padding: 10px 5px;
+    margin: 10px 0px;
+    font-size: 3vmin;
+    padding-left: 10px;
 }
 
 .inputstyle-textarea {
-   width: 70%;
-   height: 100px;
-   resize: none;
-   background-color: rgba(253, 214, 112,.35);
-  border-radius: 5px;
-  border: 2px solid rgba(253, 214, 112,.5);
-  padding: 10px 5px;
-  margin: 10px 0px;
-  font-size: 3vmin;
-  padding-left: 10px;
+    width: 70%;
+    height: 100px;
+    resize: none;
+    background-color: rgba(253, 214, 112,.35);
+    border-radius: 5px;
+    border: 2px solid rgba(253, 214, 112,.5);
+    padding: 10px 5px;
+    margin: 10px 0px;
+    font-size: 3vmin;
+    padding-left: 10px;
 }
 
 .inputstyle2 {
-   width: 70%;
-   background-color: rgba(253, 214, 112,.35);
-  border-radius: 5px;
-  border: 2px solid rgba(253, 214, 112,.5);
-  padding: 10px 5px;
-  margin: 10px 0px;
-  font-size: 3vmin;
-  padding-left: 10px;
+    width: 70%;
+    background-color: rgba(253, 214, 112,.35);
+    border-radius: 5px;
+    border: 2px solid rgba(253, 214, 112,.5);
+    padding: 10px 5px;
+    margin: 10px 0px;
+    font-size: 3vmin;
+    padding-left: 10px;
 }
 
 
 .inputstyle-search {
-  width: 60%;
-  color: #ff686e;
-  border-radius: 5px;
-  padding: 9px 9px;
-  font-size: 3vmin;
-  font-weight: bold;
-  font-family: Roboto, sans-serif;
-  background-color: rgba(253, 214, 112,.35);
-  border-radius: 5px;
-  border: 2px solid rgba(253, 214, 112,.5);
+    width: 80%;
+    color: #ff686e;
+    border-radius: 5px;
+    padding: 9px 9px;
+    font-size: 3vmin;
+    font-weight: bold;
+    font-family: Roboto, sans-serif;
+    background-color: rgba(253, 214, 112,.35);
+    border-radius: 5px;
+    border: 2px solid rgba(253, 214, 112,.5);
 }
 /************************************************************************************
 MEDIA QUERIES
 *************************************************************************************/
 /* for 980px or less */
 @media screen and (max-width: 980px) {
-  .footer{
-    display: block;
-  }
-  #pagewrap {
-    width: 94%;
-  }
-  #content {
-    width: 41%;
-    padding: 1% 4%;
-  }
+    .footer{
+        display: block;
+    }
+    #pagewrap {
+        width: 94%;
+    }
+    #content {
+        width: 41%;
+        padding: 1% 4%;
+    }
 
-  header, footer {
-    padding: 1% 4%;
-  }
+    header, footer {
+        padding: 1% 4%;
+    }
 }
 
 /* for 700px or less */
 @media screen and (max-width: 600px) {
 
-  #content {
-    width: 40%;
-    float: none;
-    display: inline-block;
-  }
-  .footer {
-  display: block;
-  padding: 20px;
-  text-align: center;
-  background-color: rgb(253, 214, 112);
-  font-family: Roboto, sans-serif;
+    #content {
+        width: 40%;
+        float: none;
+        display: inline-block;
+    }
+    .footer {
+        display: block;
+        padding: 20px;
+        text-align: center;
+        background-color: rgb(253, 214, 112);
+        font-family: Roboto, sans-serif;
 
-}
+    }
 
-.logo {
-  width: 15vh;
-  padding: 3px 4px;
-}
+    .logo {
+        width: 15vh;
+        padding: 3px 4px;
+    }
 
 
-  header, #content, #middle, #sidebar {
-  margin-top: 5px; }
+    header, #content, #middle, #sidebar {
+        margin-top: 5px; }
 }
 
 /* for 480px or less */
 @media screen and (max-width: 480px) {
 
-  header {
-    height: auto;
-  }
-  .footer {
-  display: block;
-  padding: 20px;
-  text-align: center;
-  background-color: rgb(253, 214, 112);
-  font-family: Roboto, sans-serif;
+    header {
+        height: auto;
+    }
+    .footer {
+        display: block;
+        padding: 20px;
+        text-align: center;
+        background-color: rgb(253, 214, 112);
+        font-family: Roboto, sans-serif;
 
-}
+    }
 
-  h1 {
-    font-size: 2em;
-  }
-.logo {
-  width: 15vh;
-  padding: 3px 4px;
-}
+    h1 {
+        font-size: 2em;
+    }
+    .logo {
+        width: 15vh;
+        padding: 3px 4px;
+    }
 
 
 }
 @media screen and (max-width: 370px) {
 
-  header {
-    height: auto;
-  }
-  h1 {
-    font-size: 2em;
-  }
-  #content {
-    width: 39%;
-    float: none;
-    display: inline-block;
-  }
-  .logo {
-  width: 15vh;
-  padding: 3px 4px;
-}
+    header {
+        height: auto;
+    }
+    h1 {
+        font-size: 2em;
+    }
+    #content {
+        width: 39%;
+        float: none;
+        display: inline-block;
+    }
+    .logo {
+        width: 15vh;
+        padding: 3px 4px;
+    }
 
 
 
